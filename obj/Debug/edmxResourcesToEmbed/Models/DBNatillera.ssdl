@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DBNatilleraModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Administrador">
+    <Key>
+      <PropertyRef Name="idAministrador" />
+    </Key>
+    <Property Name="idAministrador" Type="int" Nullable="false" />
+    <Property Name="Documento" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="NombreCompleto" Type="varchar" MaxLength="80" Nullable="false" />
+    <Property Name="Usuario" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Clave" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Eventos">
+    <Key>
+      <PropertyRef Name="idEventos" />
+    </Key>
+    <Property Name="idEventos" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="idAdministrador" Type="int" Nullable="false" />
+    <Property Name="TipoEvento" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="NombreEvento" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="TotalIngreso" Type="int" Nullable="false" />
+    <Property Name="FechaEvento" Type="date" Nullable="false" />
+    <Property Name="Sede" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="ActiviadesPlaneadas" Type="varchar" MaxLength="500" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Eventos_Administrador">
+    <End Role="Administrador" Type="Self.Administrador" Multiplicity="1" />
+    <End Role="Eventos" Type="Self.Eventos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Administrador">
+        <PropertyRef Name="idAministrador" />
+      </Principal>
+      <Dependent Role="Eventos">
+        <PropertyRef Name="idAdministrador" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DBNatilleraModelStoreContainer">
+    <EntitySet Name="Administrador" EntityType="Self.Administrador" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Eventos" EntityType="Self.Eventos" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Eventos_Administrador" Association="Self.FK_Eventos_Administrador">
+      <End Role="Administrador" EntitySet="Administrador" />
+      <End Role="Eventos" EntitySet="Eventos" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

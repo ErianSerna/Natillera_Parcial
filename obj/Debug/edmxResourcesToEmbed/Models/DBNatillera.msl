@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DBNatilleraModelStoreContainer" CdmEntityContainer="DBNatilleraEntities">
+    <EntitySetMapping Name="Administradors">
+      <EntityTypeMapping TypeName="DBNatilleraModel.Administrador">
+        <MappingFragment StoreEntitySet="Administrador">
+          <ScalarProperty Name="idAministrador" ColumnName="idAministrador" />
+          <ScalarProperty Name="Documento" ColumnName="Documento" />
+          <ScalarProperty Name="NombreCompleto" ColumnName="NombreCompleto" />
+          <ScalarProperty Name="Usuario" ColumnName="Usuario" />
+          <ScalarProperty Name="Clave" ColumnName="Clave" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Eventos">
+      <EntityTypeMapping TypeName="DBNatilleraModel.Evento">
+        <MappingFragment StoreEntitySet="Eventos">
+          <ScalarProperty Name="idEventos" ColumnName="idEventos" />
+          <ScalarProperty Name="idAdministrador" ColumnName="idAdministrador" />
+          <ScalarProperty Name="TipoEvento" ColumnName="TipoEvento" />
+          <ScalarProperty Name="NombreEvento" ColumnName="NombreEvento" />
+          <ScalarProperty Name="TotalIngreso" ColumnName="TotalIngreso" />
+          <ScalarProperty Name="FechaEvento" ColumnName="FechaEvento" />
+          <ScalarProperty Name="Sede" ColumnName="Sede" />
+          <ScalarProperty Name="ActiviadesPlaneadas" ColumnName="ActiviadesPlaneadas" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
