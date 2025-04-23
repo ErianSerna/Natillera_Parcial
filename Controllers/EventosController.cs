@@ -8,8 +8,6 @@ using System.Web.Http;
 namespace Natillera_Parcial.Controllers
 {
     [RoutePrefix("api/Eventos")]
-    [Authorize]
-
     public class EventosController : ApiController
     {
         [HttpGet]

@@ -26,15 +26,22 @@ namespace Natillera_Parcial.Clases
         }
         public string Actualizar()
         {
-            Evento eve = ConsultarxNombre(evento.NombreEvento);
+            Evento eve = ConsultarPorIdEvento(evento.idEventos);
             if (eve == null)
             {
-                return "El nombre del evento no es válido";
+                return "El Id del evento no es válido";
             }
             DBNati.Eventos.AddOrUpdate(evento);
             DBNati.SaveChanges();
             return "Se actualizó el evento correctamente";
         }
+
+        public Evento ConsultarPorIdEvento(int idEvento)
+        {
+            Evento eve = DBNati.Eventos.FirstOrDefault(e => e.idEventos == idEvento);
+            return eve;
+        }
+
         public Evento ConsultarxNombre(string NombreEvento)
         {
             Evento eve = DBNati.Eventos.FirstOrDefault(e => e.NombreEvento == NombreEvento);
@@ -44,26 +51,26 @@ namespace Natillera_Parcial.Clases
         public Evento ConsultarxFecha(DateTime Fecha)
         {
             Evento eve = DBNati.Eventos.FirstOrDefault(e => e.FechaEvento == Fecha);
-            return eve; 
+            return eve;
         }
 
         public Evento ConsultarxTipo(string tipo)
-        {       
+        {
             Evento eve = DBNati.Eventos.FirstOrDefault(e => e.TipoEvento == tipo);
-            return eve; 
+            return eve;
         }
         public string Eliminar()
         {
             try
             {
-                Evento even = ConsultarxNombre(evento.NombreEvento); 
+                Evento even = ConsultarxNombre(evento.NombreEvento);
                 if (even == null)
                 {
-                    return "El nombre del Evento no es válido";
+                    return "El nombre del evento no es válido";
                 }
                 DBNati.Eventos.Remove(even);
                 DBNati.SaveChanges();
-                return "Se eliminó el Evento correctamente";
+                return "Se eliminó el evento correctamente";
             }
             catch (Exception ex)
             {

@@ -3,15 +3,27 @@
   "WorkspaceRootPath": "C:\\Users\\minec\\source\\repos\\Natillera_Parcial\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B020C6E7-8F58-4BDB-B516-C3AD4F6959BA}|Natillera_Parcial.csproj|c:\\users\\minec\\source\\repos\\natillera_parcial\\controllers\\eventoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B020C6E7-8F58-4BDB-B516-C3AD4F6959BA}|Natillera_Parcial.csproj|solutionrelative:controllers\\eventoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B020C6E7-8F58-4BDB-B516-C3AD4F6959BA}|Natillera_Parcial.csproj|c:\\users\\minec\\source\\repos\\natillera_parcial\\clases\\clslogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B020C6E7-8F58-4BDB-B516-C3AD4F6959BA}|Natillera_Parcial.csproj|solutionrelative:clases\\clslogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B020C6E7-8F58-4BDB-B516-C3AD4F6959BA}|Natillera_Parcial.csproj|c:\\users\\minec\\source\\repos\\natillera_parcial\\clases\\clsevento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B020C6E7-8F58-4BDB-B516-C3AD4F6959BA}|Natillera_Parcial.csproj|solutionrelative:clases\\clsevento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B020C6E7-8F58-4BDB-B516-C3AD4F6959BA}|Natillera_Parcial.csproj|c:\\users\\minec\\source\\repos\\natillera_parcial\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{B020C6E7-8F58-4BDB-B516-C3AD4F6959BA}|Natillera_Parcial.csproj|c:\\users\\minec\\source\\repos\\natillera_parcial\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B020C6E7-8F58-4BDB-B516-C3AD4F6959BA}|Natillera_Parcial.csproj|solutionrelative:app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B020C6E7-8F58-4BDB-B516-C3AD4F6959BA}|Natillera_Parcial.csproj|c:\\users\\minec\\source\\repos\\natillera_parcial\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B020C6E7-8F58-4BDB-B516-C3AD4F6959BA}|Natillera_Parcial.csproj|solutionrelative:app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B020C6E7-8F58-4BDB-B516-C3AD4F6959BA}|Natillera_Parcial.csproj|C:\\Users\\minec\\source\\repos\\Natillera_Parcial\\controllers\\eventoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B020C6E7-8F58-4BDB-B516-C3AD4F6959BA}|Natillera_Parcial.csproj|solutionrelative:controllers\\eventoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B020C6E7-8F58-4BDB-B516-C3AD4F6959BA}|Natillera_Parcial.csproj|C:\\Users\\minec\\source\\repos\\Natillera_Parcial\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{B020C6E7-8F58-4BDB-B516-C3AD4F6959BA}|Natillera_Parcial.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
@@ -27,15 +39,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "EventosController.cs",
-              "DocumentMoniker": "C:\\Users\\minec\\Source\\Repos\\Natillera_Parcial\\Controllers\\EventosController.cs",
-              "RelativeDocumentMoniker": "Controllers\\EventosController.cs",
-              "ToolTip": "C:\\Users\\minec\\Source\\Repos\\Natillera_Parcial\\Controllers\\EventosController.cs",
-              "RelativeToolTip": "Controllers\\EventosController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAJAAAAAAAAAA==",
+              "Title": "clsLogin.cs",
+              "DocumentMoniker": "C:\\Users\\minec\\source\\repos\\Natillera_Parcial\\Clases\\clsLogin.cs",
+              "RelativeDocumentMoniker": "Clases\\clsLogin.cs",
+              "ToolTip": "C:\\Users\\minec\\source\\repos\\Natillera_Parcial\\Clases\\clsLogin.cs",
+              "RelativeToolTip": "Clases\\clsLogin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T01:42:25.825Z",
+              "WhenOpened": "2025-04-23T03:24:19.099Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WebApiConfig.cs",
+              "DocumentMoniker": "C:\\Users\\minec\\source\\repos\\Natillera_Parcial\\App_Start\\WebApiConfig.cs",
+              "RelativeDocumentMoniker": "App_Start\\WebApiConfig.cs",
+              "ToolTip": "C:\\Users\\minec\\source\\repos\\Natillera_Parcial\\App_Start\\WebApiConfig.cs",
+              "RelativeToolTip": "App_Start\\WebApiConfig.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAgwBAAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T03:22:54.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\Users\\minec\\source\\repos\\Natillera_Parcial\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Users\\minec\\source\\repos\\Natillera_Parcial\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T03:22:51.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EventosController.cs",
+              "DocumentMoniker": "C:\\Users\\minec\\source\\repos\\Natillera_Parcial\\Controllers\\EventosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EventosController.cs",
+              "ToolTip": "C:\\Users\\minec\\source\\repos\\Natillera_Parcial\\Controllers\\EventosController.cs",
+              "RelativeToolTip": "Controllers\\EventosController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T01:42:25.825Z"
             },
             {
               "$type": "Document",
@@ -45,14 +95,14 @@
               "RelativeDocumentMoniker": "Clases\\clsEvento.cs",
               "ToolTip": "C:\\Users\\minec\\source\\repos\\Natillera_Parcial\\Clases\\clsEvento.cs",
               "RelativeToolTip": "Clases\\clsEvento.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAwwDUAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAAE8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-23T01:19:40.298Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Web.config",
               "DocumentMoniker": "C:\\Users\\minec\\source\\repos\\Natillera_Parcial\\Web.config",
               "RelativeDocumentMoniker": "Web.config",
