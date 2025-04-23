@@ -47,7 +47,7 @@ namespace Natillera_Parcial.Clases
             return eve; 
         }
 
-        public Evento Consultarxtipo(string tipo)
+        public Evento ConsultarxTipo(string tipo)
         {       
             Evento eve = DBNati.Eventos.FirstOrDefault(e => e.TipoEvento == tipo);
             return eve; 

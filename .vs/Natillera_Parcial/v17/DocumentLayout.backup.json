@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\minec\\source\\repos\\Natillera_Parcial\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B020C6E7-8F58-4BDB-B516-C3AD4F6959BA}|Natillera_Parcial.csproj|c:\\users\\minec\\source\\repos\\natillera_parcial\\clases\\clsevento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B020C6E7-8F58-4BDB-B516-C3AD4F6959BA}|Natillera_Parcial.csproj|solutionrelative:clases\\clsevento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B020C6E7-8F58-4BDB-B516-C3AD4F6959BA}|Natillera_Parcial.csproj|c:\\users\\minec\\source\\repos\\natillera_parcial\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{B020C6E7-8F58-4BDB-B516-C3AD4F6959BA}|Natillera_Parcial.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
@@ -19,12 +23,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "clsEvento.cs",
+              "DocumentMoniker": "C:\\Users\\minec\\source\\repos\\Natillera_Parcial\\Clases\\clsEvento.cs",
+              "RelativeDocumentMoniker": "Clases\\clsEvento.cs",
+              "ToolTip": "C:\\Users\\minec\\source\\repos\\Natillera_Parcial\\Clases\\clsEvento.cs",
+              "RelativeToolTip": "Clases\\clsEvento.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T01:19:40.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Web.config",
               "DocumentMoniker": "C:\\Users\\minec\\source\\repos\\Natillera_Parcial\\Web.config",
               "RelativeDocumentMoniker": "Web.config",
-              "ToolTip": "C:\\Users\\minec\\source\\repos\\Natillera_Parcial\\Web.config*",
-              "RelativeToolTip": "Web.config*",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAAEgAAABJAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\minec\\source\\repos\\Natillera_Parcial\\Web.config",
+              "RelativeToolTip": "Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
               "WhenOpened": "2025-04-23T01:10:08.569Z",
               "EditorCaption": ""
